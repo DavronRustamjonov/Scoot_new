@@ -1,0 +1,500 @@
+/* space-mono-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* space-mono-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/space-mono-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+   /* lexend-deca-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/lexend-deca-v21-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lexend-deca-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lexend-deca-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lexend-deca-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/lexend-deca-v21-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lexend-deca-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lexend-deca-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1140px;
+    position: relative;
+}
+
+/*============================================HEADER=======================================*/
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap:40px;
+    align-items: center;
+    list-style: none;
+}
+.header__logo{
+    width: 107.82px;
+    height: 28.56px;
+    color: #495567;
+    font-family: Space Mono   ;
+    font-size: 40px;
+    text-decoration: none;
+}
+.header__link{
+    text-decoration: none;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    transition: all ease 0.5s ease;
+    border-bottom: 1px solid #939CAA transparent;
+    
+}
+.header__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    opacity: 0px;
+     border: 1px solid transparent;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color 0.9s ease;
+    transition: color 0.9s ease;
+}
+.header__btn:hover{
+    background-color: #FFFFFF;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+  
+  .header__link:hover {
+    border-bottom: 1px solid #939CAA;
+    padding-bottom: 1px;
+  }
+  /*===========================================HERO====================================*/
+  .hero__container{
+     background-image: url(../images/hero__b-g.svg);
+     background-position: center;
+     height: 600px;
+     width: 1140px;
+     background-size:cover;
+     background-repeat:no-repeat;
+     position: relative;
+  }
+  .hero__title{
+    font-family: Space Mono;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 500px;
+    height: 112px;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  .hero__text{
+    width: 405px;
+    height: 100px;
+    color: #FFFFFF;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 00px;
+    padding-top: 100px;
+  }
+  .hero__img{
+    margin-left: -21px;
+    padding-top:200px;
+  }
+  .hero__next-img{
+    
+    padding-top:330px;
+
+  }
+  .hero__span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -100px;
+  }
+  .hero__btn{
+    position: absolute;
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color 0.9s ease;
+    transition: color 0.9s ease;
+    margin-left: 190px;
+    bottom: 100px;
+}
+.hero__btn:hover{
+    background-color: #FFFFFF;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+
+/*===========================================SECTION==============================================*/
+.section__container{
+    padding: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap:40px;
+    position: relative;
+}
+.section__img{
+    position: absolute;
+    z-index: -1;
+    margin-left: -70px;
+    width: 800px;
+    top:40px;
+}
+.section__lead{
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: #495567;
+    margin: 20px 0px;
+}
+.section__text{
+
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+}
+/*=======================================SERVICE=============================================*/
+.service__container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.service__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap:205px;
+}
+.service__title{
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #495567;
+}
+.service__text{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    width: 445px;
+    height: 100px;
+    margin: 20px 0px;
+}
+.service__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color 0.9s ease;
+    transition: color 0.9s ease;
+    
+}
+.service__btn:hover{
+    background-color: #FFFFFF;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+.service__img{
+    position: absolute;
+    right: -50px;
+    bottom: 10px;
+}
+/*==============================================APP=============================================*/
+.app__container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.app__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap:205px;
+}
+.app__title{
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #495567;
+}
+.app__text{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    width: 445px;
+    height: 100px;
+    margin: 20px 0px;
+}
+.app__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color 0.9s ease;
+    transition: color 0.9s ease;
+    
+}
+.app__btn:hover{
+    background-color: #FFFFFF;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+.app__img{
+    position: absolute;
+    left: -530px;
+}
+/*======================================MENU=============================================================*/
+.menu__container{
+     
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap:205px;
+    position: relative;
+}
+.menu__title{
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #495567;
+}
+.menu__text{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    width: 445px;
+    height: 100px;
+    margin: 20px 0px;
+}
+.menu__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color 0.9s ease;
+    transition: color 0.9s ease;
+}
+.menu__btn:hover{
+    background-color: #FFFFFF;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+.menu__img{
+    border-radius: 50%;
+}
+.menu__next-img{
+    position: absolute;
+    right: -550px;
+    top: 70px;
+}
+/*============================================ABOUT=============================================*/
+.about{
+    background: #495567;
+
+}
+.about__container{
+margin-top: 100px;
+height: 300px;
+position: relative;
+}
+.about__title{
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 415px;
+    height: 96px;
+}
+.about__list{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.about__next-btn{
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.about__btn{
+    border: none;
+    border-radius: 5px;
+}
+
+  .about__next-btn:hover{
+   opacity: 70%;
+}
+.about__btn:hover{
+     opacity: 70%;
+}
+.about__img{
+     position: absolute;
+     right: 0px;
+     bottom: 0px;
+}
+/*========================================FOOTER=============================================*/
+.footer{
+    background: #333A44;
+    height: 96px;
+}
+.footer__container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.footer__list{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    align-items: center;
+    align-items: center;
+}
+.footer__logo{
+    width: 107.82px;
+    height: 28.56px;
+    color: #FFFFFF;
+    font-family: Space Mono   ;
+    font-size: 40px;
+    text-decoration: none;
+}
+.footer__link{
+    text-decoration: none;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    transition: all ease 0.5s ease;
+}
+.footer__link:hover{
+    border-bottom: 2px solid #939CAA;
+    padding-bottom: 5px;
+}
+.footer__next-list{
+     display: flex;
+     list-style: none;
+     gap:20px;
+}
+.footer__next-item:hover{
+  transform: scale(1.2);
+
+}
